@@ -34,6 +34,15 @@
 
     --radius: 0.5rem;
 
+    /* Warm palette */
+    --bg-warm: #fdf6ec;
+    --text-primary: #3d2409;
+    --text-secondary: #6b3d1a;
+    --text-muted: #9a6840;
+    --accent-warm: #b8722a;
+    --border-warm: #d4a870;
+    --card-warm: #f9edd9;
+
     --sidebar-background: 0 0% 98%;
 
     --sidebar-foreground: 240 5.3% 26.1%;
