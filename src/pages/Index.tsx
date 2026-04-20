@@ -240,6 +240,26 @@ export default function Index() {
         </div>
       </section>
 
+      {/* QR-код */}
+      <section className="relative z-10 max-w-sm mx-auto px-6 py-12 text-center">
+        <h2 className="font-cormorant text-4xl font-light mb-3" style={{ color: "var(--text-primary)" }}>
+          Поделись подарком
+        </h2>
+        <p className="font-golos text-base mb-8" style={{ color: "var(--text-muted)" }}>
+          Отсканируй — и сайт откроется на любом телефоне
+        </p>
+        <div className="inline-block p-5 rounded-3xl shadow-lg" style={{ background: "#fff8f0", border: "2px solid rgba(196, 131, 47, 0.2)" }}>
+          <img
+            src="https://api.qrserver.com/v1/create-qr-code/?size=220x220&data=https://preview--qr-gift-video-site.poehali.dev/&color=3d2409&bgcolor=fff8f0&margin=4"
+            alt="QR-код сайта"
+            className="w-48 h-48 md:w-56 md:h-56 rounded-xl"
+          />
+        </div>
+        <p className="font-caveat text-lg mt-5" style={{ color: "var(--accent-warm)" }}>
+          preview--qr-gift-video-site.poehali.dev
+        </p>
+      </section>
+
       {/* Футер */}
       <footer className="relative z-10 text-center py-16 px-6">
         <div className="w-24 h-px mx-auto mb-8" style={{ background: "linear-gradient(to right, transparent, var(--border-warm), transparent)" }} />
